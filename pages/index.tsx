@@ -45,7 +45,7 @@ const Home: NextPage = () => {
       </div>
       <div className="rounded-2xl bg-white p-6 shadow-xl">
         <div className="mb-5 flex items-center justify-between">
-          <span>←</span>
+          <span className="font-extrabold">←</span>
           <div className="space-x-3">
             <span>⭐ 4.9</span>
             <span className="rounded-md p-2 shadow-xl">💖</span>
@@ -57,9 +57,9 @@ const Home: NextPage = () => {
           <span className="text-xs text-gray-500">Chair</span>
           <div className="mt-3 mb-5 flex items-center justify-between">
             <div className="space-x-2">
-              <button className="h-5 w-5 rounded-full bg-yellow-500" />
-              <button className="h-5 w-5 rounded-full bg-indigo-500" />
-              <button className="h-5 w-5 rounded-full bg-teal-500" />
+              <button className="h-5 w-5 rounded-full bg-yellow-500  ring-yellow-500 ring-offset-2 transition focus:ring-2" />
+              <button className="h-5 w-5 rounded-full bg-indigo-500  ring-indigo-500 ring-offset-2 transition focus:ring-2" />
+              <button className="h-5 w-5 rounded-full bg-teal-500  ring-teal-500 ring-offset-2 transition focus:ring-2" />
             </div>
             <div className="flex items-center space-x-5">
               <button className="flex aspect-square w-8 items-center justify-center rounded-lg bg-blue-200 text-xl text-gray-500 hover:bg-teal-200 hover:text-black active:bg-yellow-500">
